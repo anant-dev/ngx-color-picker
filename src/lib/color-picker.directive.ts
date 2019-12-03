@@ -37,7 +37,7 @@ export class ColorPickerDirective implements OnInit, OnChanges, OnDestroy {
     @Input('cpRemoveColorButtonClass') cpRemoveColorButtonClass: string = 'cp-remove-color-button-class';
     @Input('cpFallbackColor') cpFallbackColor: string = '#fff';
     @Input('cpHeight') cpHeight: string = 'auto';
-    @Input('cpWidth') cpWidth: string = '230px';
+    @Input('cpWidth') cpWidth: string = '270px';
     @Input('cpIgnoredElements') cpIgnoredElements: any = [];
     @Input('cpDialogDisplay') cpDialogDisplay: string = 'popup';
     @Input('cpSaveClickOutside') cpSaveClickOutside: boolean = true;
