@@ -9,9 +9,6 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin:0;
-    font-size:11px;
-    background-color: #efefef;
 }
 
 @mixin border-radius($radius) {
@@ -220,7 +217,7 @@
 
     .selected-color{
         width: 40px;
-        height: 20px;
+        height: 26px;
         top: 15px;
         left: 0;
         position:absolute;
@@ -355,6 +352,10 @@
 .round-btn  {
     border-radius: 50%;
     border: none;
+    background-color: #767676;
+    i {
+        background: transparent;
+    }
 }
 .mlgrey-font  {
     color: #d9d9d9;
@@ -381,12 +382,13 @@
     flex-direction: row;
     align-items: center;
     padding: 13px 15px;
-    border-bottom: 2px solid #767676;
+    border-bottom: 1px solid #767676;
     width: 270px;
     background-color: #efefef;
 }
 
-.body{
+.color-picker-body{
+    background-color: #efefef;
     padding: 15px;
 }
 
@@ -400,7 +402,7 @@
     height: 71px;
     width: 270px;
     padding: 18px 15px;
-    border-top: 2px solid #767676;
+    border-top: 1px solid #767676;
 }
 
 .mlgrey-back{
@@ -427,4 +429,8 @@
 
 .black-back {
     background-color: #000;
+}
+
+.grey-back{
+    background-color: #767676;
 }
