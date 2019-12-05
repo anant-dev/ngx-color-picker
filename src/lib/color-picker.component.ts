@@ -145,7 +145,7 @@ export class ColorPickerComponent implements OnInit, AfterViewInit {
     }
 
     ngAfterViewInit() {
-        if (this.cpWidth != 230) {
+        if (this.cpWidth != 272) {
             let alphaWidth = this.alphaSlider.nativeElement.offsetWidth;
             let hueWidth = this.hueSlider.nativeElement.offsetWidth;
             this.sliderDimMax = new SliderDimension(hueWidth, this.cpWidth, 130, alphaWidth);
