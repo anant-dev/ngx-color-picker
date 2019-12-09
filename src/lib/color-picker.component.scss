@@ -259,7 +259,6 @@
 
         .box{
             input{
-                @include flex(1);
                 margin: 0;
                 float:left;
                 border: #000000 solid 1px;
@@ -273,6 +272,7 @@
                 text-align: center;
                 color: #555;
                 width: 40px;
+                margin: auto;
 
                 &:last-child{
                     margin-right: 0;
@@ -298,6 +298,7 @@
                 float:left;
                 clear: left;
                 width: 40px;
+                margin: auto;
             }
         }
     }
