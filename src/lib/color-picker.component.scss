@@ -13,7 +13,7 @@
 
 .color-picker-position{
     position: absolute;
-    top: 180px;
+    top: 100px;
     right: 435px;
 }
 
@@ -361,11 +361,11 @@
     border: none;
     padding: 0;
     margin: 0;
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
     i {
         color: #767676;
-        font-size: 26px;
+        font-size: 30px;
         cursor: pointer;
     }
 }
@@ -382,8 +382,8 @@
     flex-grow: 1;
     font-family: Roboto;
     color: #767676;
-    font-weight: 700;
-    font-size: 18pt;
+    font-weight: 7  00;
+    font-size: 14pt;
     line-height: 1.1;
     letter-spacing: .1px;
     display: inline-block;
@@ -411,7 +411,7 @@
 
 .box-footer {
     display: flex;
-    height: 61px;
+    height: 50px;
     width: 270px;
     padding: 11px 15px;
     border-top: 1px solid #767676;
@@ -427,9 +427,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 14px;
-    height: 35px;
+    height: 30px;
     width: 110px;
     border-radius: 35px;
     cursor: pointer;
